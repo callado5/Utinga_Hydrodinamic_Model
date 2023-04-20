@@ -1,0 +1,8 @@
+[FileInformation]
+  FileGeneratedBy  = Deltares, QUICKIN Version 5.03.00.59149 (Win64), Nov 13 2018, 21:18:16
+  FileCreationDate = 2023-04-18, 14:07:23
+  FileVersion      = 0.02
+[Grid]
+  Type        = RGF
+  FileName    = grid001.grd
+  FlowDepth   = batimetria-grid001.dep

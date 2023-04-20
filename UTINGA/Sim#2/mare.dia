@@ -1,0 +1,1018 @@
+** INFO   : Opened file : unstruc.hlp
+** INFO   : Closed file : unstruc.hlp
+** INFO   : Opened file : ISOCOLOUR.hls
+** INFO   : Using Local FileISOCOLOUR.hls
+** INFO   : Closed file : ISOCOLOUR.hls
+** INFO   : Opened file : ISOCOLOUR.hls
+** INFO   : Using Local FileISOCOLOUR.hls
+** INFO   : Closed file : ISOCOLOUR.hls
+* Deltares, D-Flow FM Version 1.1.92.000000, Mar 18 2014, 10:16:23
+* File creation date: 22:31:41, 19-04-2023
+** INFO   :  MAXIMUM NUMBER OF LINKS         :            2
+** INFO   :  MAXIMUM NUMBER OF NODES         :            0
+** INFO   :  RESOLUTION GRAPHICS SCREEN      :         1364         749
+** INFO   :  RESOLUTION TEXT     SCREEN      :          170          49
+** INFO   :  NUMBER OF COLOURS AVAILABLE     :          256
+** INFO   :              0        100002 NOD(KMAX)
+** INFO   :              6        700014 XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** INFO   :              6         10000 XS(NSMAX),YS(NSMAX),ZS(NSMAX),IPSAM(NSMAX)
+** INFO   :              6         50000 xlan(maxlan)
+** INFO   :              7         50000 ylan(maxlan)
+** INFO   :              7         50000 zlan(maxlan)
+** INFO   :              7         25000 nclan(maxlan)
+** INFO   : Load MDU-file                    (*.mdu)
+** INFO   : Opened file : mare.mdu
+** INFO   : Closed file : mare.mdu
+** INFO   :              8        100002 NOD(KMAX)
+** INFO   :             14        700014 XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** INFO   :             14          1440 xsp(maxspl, maxsplen)
+** INFO   :             14          1440 ysp(maxspl, maxsplen)
+** INFO   :             14          1440 xsp2(maxspl, maxsplen)
+** INFO   :             14          1440 ysp2(maxspl, maxsplen)
+** INFO   :             14         10000 XS(NSMAX),YS(NSMAX),ZS(NSMAX),IPSAM(NSMAX)
+** INFO   :             14         60000 xlan(maxlan)
+** INFO   :             15         60000 ylan(maxlan)
+** INFO   :             15         60000 zlan(maxlan)
+** INFO   :             16         30000 nclan(maxlan)
+ Until here copy of previous diagnostic file
+** INFO   : Opened Model definition file : mare.mdu
+** WARNING: TimeSplitInterval invalid, disabling time partitioning of output. Got: 0X
+** DEBUG  : Opened '1_net.nc' as #         3.
+** DEBUG  : Closed NetCDF file '1_net.nc.
+** INFO   :             16          7632 netcell(numpx1)
+** INFO   :             16          9884 lnn(numl)
+** INFO   :             16         19768 lne(2,numl)
+** INFO   :             16          4797 xz(numc)
+** INFO   :             16          4797 yz(numc)
+** INFO   :             16          4797 xzw(numc)
+** INFO   :             16          4797 yzw(numc)
+** INFO   :             16          4797 ba(numc)
+** INFO   : thin dams with kdtree2, elapsed time:     0.20000E-02s.
+** INFO   : thin dams without kdtree2, elapsed time:      0.0000
+** INFO   : Opened file : mare.ext
+** INFO   :             16          9884 xe (nx)
+** INFO   :             16          9884 ye (nx)
+** INFO   :             16          9884 xyen(2, nx)
+** INFO   :             17         88956 kce(nx), kez(nx), keu(nx), kes(nx), ketm(nx), kesd(nx), ket(nx), ken(nx), keg(nx), ked(nx), kep(nx), itpez(nx), itpenz(nx), itpeu(nx)
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** INFO   :             17         38376 nd(ndx), bl(ndx), bai(ndx), kcs(ndx), aif(ndx)
+** INFO   :             18         18608 ln   (2,lnx)
+** INFO   :             18         18608 lncn (2,lnx)
+** INFO   :             18         18608 bob  (2,lnx)
+** INFO   :             18          9304 dx   (  lnx)
+** INFO   :             18          9304 dxi  (  lnx)
+** INFO   :             18          9304 wu   (  lnx)
+** INFO   :             19          9304 wui  (  lnx)
+** INFO   :             19          9304 kcu  (  lnx)
+** INFO   :             19          9304 csu  (  lnx)
+** INFO   :             19          9304 snu  (  lnx)
+** INFO   :             19          9304 acl  (  lnx)
+** INFO   :             19          9304 acn  (2,lnx)
+** INFO   :             19          9304 iadv   (lnx)
+** INFO   :             19          9304 teta   (lnx)
+** INFO   :             19          9304 ibot   (lnx)
+** INFO   :             19         27912 xu(lnx), yu(lnx) , blu(lnx)
+** INFO   :             19          9884 ln2lne (nex)
+** INFO   :             20          9884 lne2ln (nex)
+** INFO   :             20          5088  cn (numk)
+** INFO   :             20          5088 ucnx(numk)
+** INFO   :             20          5088 ucny(numk)
+** INFO   :             20          5088 ban (numk)
+** INFO   : cutcell_list; nr of *.cut files found =              0             4
+** INFO   :             20          9304 wcx1(lnx)
+** INFO   :             20          9304 wcy1(lnx)
+** INFO   :             20          9304 wcx2(lnx)
+** INFO   :             20          9304 wcy2(lnx)
+** INFO   :             20          9594 wcxy (2,ndx)
+** INFO   :             20         18608 wcL  (2,Lnx)
+** INFO   :             20          4797 wc     (ndx)
+** INFO   :             20          9304 wcnx3(lnx)
+** INFO   :             21          9304 wcny3(lnx)
+** INFO   :             21          9304 wcnx4(lnx)
+** INFO   :             21          9304 wcny4(lnx)
+** INFO   :             21         15264 wcnxy (3,numk)
+** INFO   : cutcell_list; nr of *.cut files found =              0             5
+** INFO   :             21          9280 walls(17,nw)
+** INFO   :             21         19188 banf(mxban)
+** INFO   :             21         19188 nban(4,mxban)
+** INFO   :             22         19188 rr(mxban), nr(mxban)
+** INFO   :             22         19188 banh (mxban)
+** INFO   :             22         19188 nbanh(4,mxban)
+** INFO   :             22          9594 s0  (ndx) , s1  (ndx)
+** INFO   :             22          9594 a0  (ndx) , a1  (ndx)
+** INFO   :             22          9594 hs  (ndx) , s00 (ndx)
+** INFO   :             22          4797 cfs (ndx)
+** INFO   :             22          9594 ucx (ndkx) , ucy (ndkx)
+** INFO   :             22          9594 uqcx(ndkx) , uqcy(ndkx)
+** INFO   :             22          9594 ucxq(ndkx) , ucyq(ndkx)
+** INFO   :             22          9594 qin (ndkx) , vih (ndkx)
+** INFO   :             22          9594 dvxc(ndkx) , dvyc(ndkx)
+** INFO   :             23          4797 cfli(ndkx)
+** INFO   :             23          4797 squ (ndkx)
+** INFO   :             23          4797 sqi (ndkx)
+** INFO   :             23          4797 sq  (ndkx)
+** INFO   :             23          4797 vol0(ndkx)
+** INFO   :             23          4797 vol1(ndkx)
+** INFO   :             23          4797 volerror(ndkx)
+** INFO   :             23          4797 tidep (ndx)
+** INFO   :             23          9304 cfuhi(lnx)
+** INFO   :             23          4797 frcu (lnx)
+** INFO   :             23          4797 ifrcutp(lnx)
+** INFO   :             23          9304 wsu  (lnx)
+** INFO   :             23          4797 frculin (lnx)
+** INFO   :             23          9304 u0   (lnkx)
+** INFO   :             23          9304 u1   (lnkx)
+** INFO   :             23          9304 q1   (lnkx)
+** INFO   :             23          9304 qa   (lnkx)
+** INFO   :             23          9304 v    (lnkx)
+** INFO   :             24          9304 ucxu (lnkx)
+** INFO   :             24          9304 ucyu (lnkx)
+** INFO   :             24          9304 hu   (lnkx)
+** INFO   :             24          9304 huvli(lnkx)
+** INFO   :             24          9304 au   (lnkx)
+** INFO   :             24          9304 viu  (lnkx)
+** INFO   :             24          9304 cflj (lnkx)
+** INFO   :             24          9304 tetaj(lnkx)
+** INFO   :             24          9304 suu  (lnkx)
+** INFO   :             24          9304 advi (lnkx)
+** INFO   :             24          9304 adve (lnkx)
+** INFO   :             24          9304 rhou (lnkx)
+** INFO   :             24          9304 plotlin(max(lnkx,ndkx))
+** INFO   :             24          4797 numlimdt(ndx)
+** INFO   :             24          4797 bb   (ndx )
+** INFO   :             25          4797 dd   (ndx )
+** INFO   :             25          4797 fu   (lnkx)
+** INFO   :             25          4797 ru   (lnkx)
+** INFO   :             25          4797 sqwave (ndx)
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : External Forcing or Initialising 'windxy' from file 'wind.wnd'.
+** INFO   :             25         27912 wx(lnx), wy(lnx)
+** INFO   :             25         18608 wxy(2*lnx)
+** INFO   : Opened file : wind.wnd
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** INFO   : External Forcing or Initialising 'windxy' from file 'wind.wnd'.
+** INFO   : Closed file : mare.ext
+** INFO   :             25          9304 klnup(6,lnx)
+** INFO   :             25          9304 slnup(6,lnx)
+** INFO   :             25          4797 ij(nodtot)
+** INFO   :             25          4797 nodbr2(nodtot)
+** INFO   :             25          4797 nbrstk(nodtot)
+** INFO   :             25          4797 nodstk(nodtot)
+** INFO   :             25          4797 noel(nodtot)
+** INFO   :             25          4797 noel0(nodtot)
+** INFO   :             25          4797 ia(nodtot)
+** INFO   :             25          4797 row(nodtot)
+** INFO   :             26          9304 lv2(lintot)
+** INFO   :             26          4797 jagauss(nodtot)
+** INFO   :             26         19246 ccr(0:ijstck)
+** INFO   :             26         19246 bbl(0:ijstck)
+** INFO   :             26          9594 bbr(nodtot), ddr(nodtot)
+** INFO   :             27         23985 d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
+** INFO   : nogauss , nocg :           2669          2128
+** INFO   : Modelinit finished   at: 22:31:50, 19-04-2023
+** INFO   : * Active Model definition:
+# Generated on 22:31:50, 19-04-2023
+# Deltares, D-Flow FM Version 1.1.92.000000, Mar 18 2014, 10:16:23
+
+[model]
+Program              = D-Flow FM
+Version              = 1.1.92.000000
+AutoStart            = 0                   # Autostart simulation after loading MDU or not (0=no, 1=autostart, 2=autostartstop).
+
+[geometry]
+NetFile              = 1_net.nc            # *_net.nc
+BathymetryFile       =                     # *.xyb
+WaterLevIniFile      =                     # Initial water levels sample file *.xyz
+LandBoundaryFile     =                     # Only for plotting
+ThinDamFile          =                     # *_thd.pli, Polyline(s) for tracing thin dams.
+ThindykeFile         =                     # *_tdk.pli, Polyline(s) x,y,z, z = thin dyke top levels
+ProflocFile          =                     # *_proflocation.xyz)    x,y,z, z = profile refnumber
+ProfdefFile          =                     # *_profdefinition.def) definition for all profile nrs
+Uniformwidth1D       = 2.                  # Uniform width for 1D profiles not specified bij profloc
+ManholeFile          =                     # *...
+WaterLevIni          = 0.                  # Initial water level
+Bedlevuni            = -5.                 # Uniform bottom level, (only if bedlevtype>=3, used at missing z values in netfile
+BedlevType           = 3                   # 1 : Bottom levels at waterlevel cells (=flow nodes), like tiles xz, yz, bl , bob = max(bl left, bl right)
+                                           # 2 : Bottom levels at velocity points  (=flow links),            xu, yu, blu, bob = blu,    bl = lowest connected link
+                                           # 3 : Bottom levels at velocity points  (=flow links), using mean network levels xk, yk, zk  bl = lowest connected link
+                                           # 4 : Bottom levels at velocity points  (=flow links), using min  network levels xk, yk, zk  bl = lowest connected link
+                                           # 5 : Bottom levels at velocity points  (=flow links), using max  network levels xk, yk, zk  bl = lowest connected link
+PartitionFile        =                     # *_part.pol, polyline(s) x,y
+AngLat               = 0.                  # Angle of latitude  S-N (deg), 0=no Coriolis
+AngLon               = 0.                  # Angle of longitude E-W (deg), 0=Greenwich
+Conveyance2D         = 3                   # -1:R=HU,0:R=H, 1:R=A/P, 2:K=analytic-1D conv, 3:K=analytic-2D conv
+Nonlin2D             = 0                   # Non-linear 2D volumes, only icm ibedlevtype = 3
+Makeorthocenters     = 0                   # 1=yes, 0=no switch from circumcentres to orthocentres in geominit
+Dcenterinside        = 1.                  # limit cell center; 1.0:in cell <-> 0.0:on c/g
+
+[numerics]
+CFLMax               = 0.7                 # Max. Courant nr.
+AdvecType            = 3                   # Adv type, 0=no, 1= Wenneker, qu-udzt, 2=1, q(uio-u), 3=Perot q(uio-u), 4=Perot q(ui-u), 5=Perot q(ui-u) without itself
+TimeStepType         = 2                   #  0=only transport, 1=transport + velocity update, 2=full implicit step_reduce, 3=step_jacobi, 4=explicit
+Limtypmom            = 4                   # Limiter type for cell center advection velocity, 0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Limtypsa             = 4                   # Limiter type for salinity transport,           0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Icgsolver            = 4                   # Solver type , 1 = sobekGS_OMP, 2 = sobekGS_OMPthreadsafe, 3 = sobekGS, 4 = sobekGS + Saadilud, 5 = parallel/global Saad, 6 = parallel/Petsc, 7 = parallel/GS
+Tlfsmo               = 0.                  # Fourier smoothing time on waterlevel boundaries (s)
+Slopedrop2D          = 0.                  # Apply droplosses only if local bottom slope > Slopedrop2D, <=0 =no droplosses
+
+[physics]
+UnifFrictCoef        = 2.3d-2              # Uniform friction coefficient, 0=no friction
+UnifFrictType        = 1                   # 0=Chezy, 1=Manning, 2=White Colebrook, 3=z0 etc
+UnifFrictCoef1D      = 2.3d-2              # Uniform friction coefficient in 1D links, 0=no friction
+UnifFrictCoefLin     = 0.                  # Uniform linear friction coefficient for ocean models (m/s), 0=no
+Vicouv               = 1.                  # Uniform horizontal eddy viscosity (m2/s)
+Dicouv               = 1.                  # Uniform horizontal eddy diffusivity (m2/s)
+Smagorinsky          = 0.                  # Add Smagorinsky horizontal turbulence : vicu = vicu + ( (Smagorinsky*dx)**2)*S, e.g. 0.1
+Elder                = 0.                  # Add Elder contribution                : vicu = vicu + Elder*kappa*ustar*H/6),   e.g. 1.0
+irov                 = 0                   # 0=free slip, 1 = partial slip using wall_ks
+wall_ks              = 0.                  # Nikuradse roughness for side walls, wall_z0=wall_ks/30
+Rhomean              = 1000.               #  Average water density (kg/m3)
+Ag                   = 9.81                #  Gravitational acceleration
+TidalForcing         = 1                   # Tidal forcing (0=no, 1=yes) (only for jsferic == 1)
+Salinity             = 0                   # Include salinity, (0=no, 1=yes)
+Temperature          = 0                   # Include temperature, (0=no, 1=only transport, 5=heat flux model (5) of D3D)
+
+[wind]
+ICdtyp               = 2                   # ( ),1=const, 2=S&B 2 breakpoints, 3= S&B 3 breakpoints, 4=Charnock constant
+Cdbreakpoints        = 6.3d-4 7.23d-3      # ( ),   e.g. 0.00063  0.00723
+Windspeedbreakpoints = 0. 100.             # (m/s), e.g. 0.0      100.0
+Rhoair               = 1.20000004768372    # Air density (kg/m3)
+PavBnd               = 0.                  # Average air Pressure on open boundaries, (N/m2), only applied if value > 0
+Gapres               = 101325.             # Only relevant for Spiderweb:  Global Atmospheric Pressure, (N/m2)
+
+[time]
+RefDate              = 20220101            # Reference date (yyyymmdd)
+Tzone                = 0.                  # Data Sources in GMT are interrogated with time in minutes since refdat-Tzone*60
+Tunit                =                     # Time units in MDU (H, M or S)
+DtUser               = 300.                # User timestep in seconds (interval for external forcing update & his/map output)
+DtMax                = 60.                 # Max timestep in seconds
+DtInit               = 1.                  # Initial timestep in seconds
+AutoTimestep         = 1                   # Use CFL timestep limit or not (1/0)
+TStart               = 0.                  # Start time w.r.t. RefDate (in TUnit)
+TStop                = 86400.              # Stop  time w.r.t. RefDate (in TUnit)
+
+[restart]
+RestartFile          =                     # Restart file, only from netcdf-file, hence: either *_rst.nc or *_map.nc
+RestartDateTime      =                     # Restart time (YYYYMMDDHHMMSS), only relevant in case of restart from *_map.nc
+
+[external forcing]
+ExtForceFile         = mare.ext            # *.ext
+
+[output]
+OutputDir            =                     # Output directory of map-, his-, rst-, dat- and timings-files, default: DFM_OUTPUT_<modelname>. Set to . for no dir/current dir.
+ObsFile              =                     # *.xyn Coords+name of observation stations.
+CrsFile              =                     # *_crs.pli Polyline(s) definining cross section(s).
+HisInterval          = 120.                # History output, given as "interval" "start period" "end period" (s)
+XLSInterval          = 0.                  # Interval (s) between XLS history
+FlowGeomFile         =                     # *_flowgeom.nc Flow geometry file in NetCDF format.
+MapInterval          = 1200.               # Map file output, given as "interval" "start period" "end period" (s)
+MapFormat            = 1                   # Map file format, 1: netCDF, 2: Tecplot, 3: netCFD and Tecplot
+RstInterval          = 86400.              # Restart file output, given as "interval" "start period" "end period" (s)
+WaqInterval          = 0.                  # Interval (in s) between Delwaq file outputs
+StatsInterval        = 0.                  # Interval (in s) between simulation statistics output.
+TimingsInterval      = 0.                  # Timings output interval
+TimeSplitInterval    = 0X                  # Time splitting interval, after which a new output file is started. value+unit, e.g. '1 M', valid units: Y,M,D,h,m,s.
+MapOutputTimeVector  =                     # File (.mpt) containing fixed map output times (s) w.r.t. RefDate
+FullGridOutput       = 0                   # 0:compact, 1:full time-varying grid data
+** INFO   : **
+** WARNING: No observations nor cross sections defined. Will not produce a history file.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_map.nc' as #         3.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220101_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220101_000000_rst.nc.
+** INFO   :             27         14101 pp(ndkx)
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000001.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000002.pcx
+** INFO   : User interrupt
+** INFO   : Values at flow links
+** INFO   : Values at flow nodes
+** INFO   : Node velocity magnitude            (m/s)
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000003.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000004.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000005.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000006.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000007.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000008.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000009.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000010.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000011.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000012.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000013.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000014.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000015.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000016.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000017.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000018.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000019.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000020.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000021.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000022.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000023.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000024.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000025.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000026.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000027.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000028.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220102_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220102_000000_rst.nc.
+** INFO   : simulation period     (s)  :    86400.0000000000
+** INFO   : nr of timesteps       ( )  :     1474.0000000000
+** INFO   : cputime in solve      (s)  :        5.9510000000
+** INFO   : cputime steps         (s)  :        9.4610000000
+** INFO   : cputime steps + plots (s)  :       21.6520000000
+** INFO   : fraction solve/steps  ( )  :        0.6290032766
+** INFO   : total/(dnt*ndx)       (s)  :        0.0000030622
+** INFO   : av nr of cont. it s1it( )  :        0.0000000000
+** INFO   : cputime setumod       (s)  :        0.7100000001
+** INFO   : Modelinit finished   at: 22:31:50, 19-04-2023
+** INFO   : Computation finished at: 22:32:43, 19-04-2023
+** INFO   : Opened file : mare_20220102_000000
+** INFO   : Closed file : mare_20220102_000000
+** INFO   : Opened file : numlimdt.xyz
+** INFO   : Closed file : numlimdt.xyz
+** INFO   : Load MDU-file                    (*.mdu)
+** INFO   : Opened file : mare.mdu
+** INFO   : Closed file : mare.mdu
+** INFO   :             27        100002 NOD(KMAX)
+** INFO   :             33        700014 XK (KMAX), YK (KMAX), ZK (KMAX), KC (KMAX), NMK (KMAX), RNOD(KMAX)
+** INFO   :             33          2016 xsp(maxspl, maxsplen)
+** INFO   :             33          2016 ysp(maxspl, maxsplen)
+** INFO   :             33          2016 xsp2(maxspl, maxsplen)
+** INFO   :             33          2016 ysp2(maxspl, maxsplen)
+** INFO   :             33         10000 XS(NSMAX),YS(NSMAX),ZS(NSMAX),IPSAM(NSMAX)
+** INFO   :             34         72000 xlan(maxlan)
+** INFO   :             34         72000 ylan(maxlan)
+** INFO   :             35         72000 zlan(maxlan)
+** INFO   :             35         36000 nclan(maxlan)
+** INFO   : Opened Model definition file : mare.mdu
+** WARNING: TimeSplitInterval invalid, disabling time partitioning of output. Got: 0X
+** DEBUG  : Opened '1_net.nc' as #         4.
+** DEBUG  : Closed NetCDF file '1_net.nc.
+** INFO   :             35          9884 lnn(numl)
+** INFO   :             35         19768 lne(2,numl)
+** INFO   : thin dams without kdtree2, elapsed time:      0.0000
+** INFO   : Opened file : mare.ext
+** INFO   :             36          9884 xe (nx)
+** INFO   :             36          9884 ye (nx)
+** INFO   :             36          9884 xyen(2, nx)
+** INFO   :             36         88956 kce(nx), kez(nx), keu(nx), kes(nx), ketm(nx), kesd(nx), ket(nx), ken(nx), keg(nx), ked(nx), kep(nx), itpez(nx), itpenz(nx), itpeu(nx)
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** INFO   :             37         38376 nd(ndx), bl(ndx), bai(ndx), kcs(ndx), aif(ndx)
+** INFO   :             37         18608 ln   (2,lnx)
+** INFO   :             37         18608 lncn (2,lnx)
+** INFO   :             38         18608 bob  (2,lnx)
+** INFO   :             38          9304 dx   (  lnx)
+** INFO   :             38          9304 dxi  (  lnx)
+** INFO   :             38          9304 wu   (  lnx)
+** INFO   :             38          9304 wui  (  lnx)
+** INFO   :             38          9304 kcu  (  lnx)
+** INFO   :             38          9304 csu  (  lnx)
+** INFO   :             38          9304 snu  (  lnx)
+** INFO   :             38          9304 acl  (  lnx)
+** INFO   :             38          9304 acn  (2,lnx)
+** INFO   :             38          9304 iadv   (lnx)
+** INFO   :             38          9304 teta   (lnx)
+** INFO   :             38          9304 ibot   (lnx)
+** INFO   :             39         27912 xu(lnx), yu(lnx) , blu(lnx)
+** INFO   :             39          9884 ln2lne (nex)
+** INFO   :             39          9884 lne2ln (nex)
+** INFO   :             39          5088  cn (numk)
+** INFO   :             39          5088 ucnx(numk)
+** INFO   :             39          5088 ucny(numk)
+** INFO   :             39          5088 ban (numk)
+** INFO   : cutcell_list; nr of *.cut files found =              0             4
+** INFO   :             39          9304 wcx1(lnx)
+** INFO   :             39          9304 wcy1(lnx)
+** INFO   :             39          9304 wcx2(lnx)
+** INFO   :             39          9304 wcy2(lnx)
+** INFO   :             40          9594 wcxy (2,ndx)
+** INFO   :             40         18608 wcL  (2,Lnx)
+** INFO   :             40          4797 wc     (ndx)
+** INFO   :             40          9304 wcnx3(lnx)
+** INFO   :             40          9304 wcny3(lnx)
+** INFO   :             40          9304 wcnx4(lnx)
+** INFO   :             40          9304 wcny4(lnx)
+** INFO   :             40         15264 wcnxy (3,numk)
+** INFO   : cutcell_list; nr of *.cut files found =              0             5
+** INFO   :             40          9280 walls(17,nw)
+** INFO   :             41         19188 banf(mxban)
+** INFO   :             41         19188 nban(4,mxban)
+** INFO   :             41         19188 rr(mxban), nr(mxban)
+** INFO   :             41         19188 banh (mxban)
+** INFO   :             41         19188 nbanh(4,mxban)
+** INFO   :             41          9594 s0  (ndx) , s1  (ndx)
+** INFO   :             41          9594 a0  (ndx) , a1  (ndx)
+** INFO   :             41          9594 hs  (ndx) , s00 (ndx)
+** INFO   :             41          4797 cfs (ndx)
+** INFO   :             42          9594 ucx (ndkx) , ucy (ndkx)
+** INFO   :             42          9594 uqcx(ndkx) , uqcy(ndkx)
+** INFO   :             42          9594 ucxq(ndkx) , ucyq(ndkx)
+** INFO   :             42          9594 qin (ndkx) , vih (ndkx)
+** INFO   :             42          9594 dvxc(ndkx) , dvyc(ndkx)
+** INFO   :             42          4797 cfli(ndkx)
+** INFO   :             42          4797 squ (ndkx)
+** INFO   :             42          4797 sqi (ndkx)
+** INFO   :             42          4797 sq  (ndkx)
+** INFO   :             42          4797 vol0(ndkx)
+** INFO   :             42          4797 vol1(ndkx)
+** INFO   :             42          4797 volerror(ndkx)
+** INFO   :             42          4797 tidep (ndx)
+** INFO   :             42          9304 cfuhi(lnx)
+** INFO   :             42          4797 frcu (lnx)
+** INFO   :             42          4797 ifrcutp(lnx)
+** INFO   :             42          9304 wsu  (lnx)
+** INFO   :             42          4797 frculin (lnx)
+** INFO   :             42          9304 u0   (lnkx)
+** INFO   :             43          9304 u1   (lnkx)
+** INFO   :             43          9304 q1   (lnkx)
+** INFO   :             43          9304 qa   (lnkx)
+** INFO   :             43          9304 v    (lnkx)
+** INFO   :             43          9304 ucxu (lnkx)
+** INFO   :             43          9304 ucyu (lnkx)
+** INFO   :             43          9304 hu   (lnkx)
+** INFO   :             43          9304 huvli(lnkx)
+** INFO   :             43          9304 au   (lnkx)
+** INFO   :             43          9304 viu  (lnkx)
+** INFO   :             43          9304 cflj (lnkx)
+** INFO   :             43          9304 tetaj(lnkx)
+** INFO   :             43          9304 suu  (lnkx)
+** INFO   :             44          9304 advi (lnkx)
+** INFO   :             44          9304 adve (lnkx)
+** INFO   :             44          9304 rhou (lnkx)
+** INFO   :             44          9304 plotlin(max(lnkx,ndkx))
+** INFO   :             44          4797 numlimdt(ndx)
+** INFO   :             44          4797 bb   (ndx )
+** INFO   :             44          4797 dd   (ndx )
+** INFO   :             44          4797 fu   (lnkx)
+** INFO   :             44          4797 ru   (lnkx)
+** INFO   :             44          4797 sqwave (ndx)
+** INFO   : Closed file : wind.wnd
+** INFO   : looking for keyword: QUANTITY
+** INFO   : looking for keyword: FILENAME
+** INFO   : looking for keyword: FILETYPE
+** INFO   : looking for keyword: METHOD
+** INFO   : looking for keyword: OPERAND
+** INFO   : External Forcing or Initialising 'windxy' from file 'wind.wnd'.
+** INFO   :             44         27912 wx(lnx), wy(lnx)
+** INFO   :             44         18608 wxy(2*lnx)
+** INFO   : Opened file : wind.wnd
+** INFO   : looking for keyword: QUANTITY
+** INFO   : keyword QUANTITY NOT found!
+** INFO   : External Forcing or Initialising 'windxy' from file 'wind.wnd'.
+** INFO   : Closed file : mare.ext
+** INFO   :             44          9304 klnup(6,lnx)
+** INFO   :             44          9304 slnup(6,lnx)
+** INFO   :             45          4797 ij(nodtot)
+** INFO   :             45          4797 nodbr2(nodtot)
+** INFO   :             45          4797 nbrstk(nodtot)
+** INFO   :             45          4797 nodstk(nodtot)
+** INFO   :             45          4797 noel(nodtot)
+** INFO   :             45          4797 noel0(nodtot)
+** INFO   :             45          4797 ia(nodtot)
+** INFO   :             45          4797 row(nodtot)
+** INFO   :             45          9304 lv2(lintot)
+** INFO   :             45          4797 jagauss(nodtot)
+** INFO   :             45         19246 ccr(0:ijstck)
+** INFO   :             46         19246 bbl(0:ijstck)
+** INFO   :             46          9594 bbr(nodtot), ddr(nodtot)
+** INFO   :             46         23985 d0(nodtot), zkr(nodtot),pk(0:nodtot), apk(nodtot), rk(nodtot)
+** INFO   : nogauss , nocg :           2669          2128
+** INFO   : Modelinit finished   at: 22:33:10, 19-04-2023
+** INFO   : * Active Model definition:
+# Generated on 22:33:10, 19-04-2023
+# Deltares, D-Flow FM Version 1.1.92.000000, Mar 18 2014, 10:16:23
+
+[model]
+Program              = D-Flow FM
+Version              = 1.1.92.000000
+AutoStart            = 0                   # Autostart simulation after loading MDU or not (0=no, 1=autostart, 2=autostartstop).
+
+[geometry]
+NetFile              = 1_net.nc            # *_net.nc
+BathymetryFile       =                     # *.xyb
+WaterLevIniFile      =                     # Initial water levels sample file *.xyz
+LandBoundaryFile     =                     # Only for plotting
+ThinDamFile          =                     # *_thd.pli, Polyline(s) for tracing thin dams.
+ThindykeFile         =                     # *_tdk.pli, Polyline(s) x,y,z, z = thin dyke top levels
+ProflocFile          =                     # *_proflocation.xyz)    x,y,z, z = profile refnumber
+ProfdefFile          =                     # *_profdefinition.def) definition for all profile nrs
+Uniformwidth1D       = 2.                  # Uniform width for 1D profiles not specified bij profloc
+ManholeFile          =                     # *...
+WaterLevIni          = 0.                  # Initial water level
+Bedlevuni            = -5.                 # Uniform bottom level, (only if bedlevtype>=3, used at missing z values in netfile
+BedlevType           = 3                   # 1 : Bottom levels at waterlevel cells (=flow nodes), like tiles xz, yz, bl , bob = max(bl left, bl right)
+                                           # 2 : Bottom levels at velocity points  (=flow links),            xu, yu, blu, bob = blu,    bl = lowest connected link
+                                           # 3 : Bottom levels at velocity points  (=flow links), using mean network levels xk, yk, zk  bl = lowest connected link
+                                           # 4 : Bottom levels at velocity points  (=flow links), using min  network levels xk, yk, zk  bl = lowest connected link
+                                           # 5 : Bottom levels at velocity points  (=flow links), using max  network levels xk, yk, zk  bl = lowest connected link
+PartitionFile        =                     # *_part.pol, polyline(s) x,y
+AngLat               = 0.                  # Angle of latitude  S-N (deg), 0=no Coriolis
+AngLon               = 0.                  # Angle of longitude E-W (deg), 0=Greenwich
+Conveyance2D         = 3                   # -1:R=HU,0:R=H, 1:R=A/P, 2:K=analytic-1D conv, 3:K=analytic-2D conv
+Nonlin2D             = 0                   # Non-linear 2D volumes, only icm ibedlevtype = 3
+Makeorthocenters     = 0                   # 1=yes, 0=no switch from circumcentres to orthocentres in geominit
+Dcenterinside        = 1.                  # limit cell center; 1.0:in cell <-> 0.0:on c/g
+
+[numerics]
+CFLMax               = 0.7                 # Max. Courant nr.
+AdvecType            = 3                   # Adv type, 0=no, 1= Wenneker, qu-udzt, 2=1, q(uio-u), 3=Perot q(uio-u), 4=Perot q(ui-u), 5=Perot q(ui-u) without itself
+TimeStepType         = 2                   #  0=only transport, 1=transport + velocity update, 2=full implicit step_reduce, 3=step_jacobi, 4=explicit
+Limtypmom            = 4                   # Limiter type for cell center advection velocity, 0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Limtypsa             = 4                   # Limiter type for salinity transport,           0=no, 1=minmod,2=vanLeer,3=Kooren,4=Monotone Central
+Icgsolver            = 4                   # Solver type , 1 = sobekGS_OMP, 2 = sobekGS_OMPthreadsafe, 3 = sobekGS, 4 = sobekGS + Saadilud, 5 = parallel/global Saad, 6 = parallel/Petsc, 7 = parallel/GS
+Tlfsmo               = 0.                  # Fourier smoothing time on waterlevel boundaries (s)
+Slopedrop2D          = 0.                  # Apply droplosses only if local bottom slope > Slopedrop2D, <=0 =no droplosses
+
+[physics]
+UnifFrictCoef        = 2.3d-2              # Uniform friction coefficient, 0=no friction
+UnifFrictType        = 1                   # 0=Chezy, 1=Manning, 2=White Colebrook, 3=z0 etc
+UnifFrictCoef1D      = 2.3d-2              # Uniform friction coefficient in 1D links, 0=no friction
+UnifFrictCoefLin     = 0.                  # Uniform linear friction coefficient for ocean models (m/s), 0=no
+Vicouv               = 1.                  # Uniform horizontal eddy viscosity (m2/s)
+Dicouv               = 1.                  # Uniform horizontal eddy diffusivity (m2/s)
+Smagorinsky          = 0.                  # Add Smagorinsky horizontal turbulence : vicu = vicu + ( (Smagorinsky*dx)**2)*S, e.g. 0.1
+Elder                = 0.                  # Add Elder contribution                : vicu = vicu + Elder*kappa*ustar*H/6),   e.g. 1.0
+irov                 = 0                   # 0=free slip, 1 = partial slip using wall_ks
+wall_ks              = 0.                  # Nikuradse roughness for side walls, wall_z0=wall_ks/30
+Rhomean              = 1000.               #  Average water density (kg/m3)
+Ag                   = 9.81                #  Gravitational acceleration
+TidalForcing         = 1                   # Tidal forcing (0=no, 1=yes) (only for jsferic == 1)
+Salinity             = 0                   # Include salinity, (0=no, 1=yes)
+Temperature          = 0                   # Include temperature, (0=no, 1=only transport, 5=heat flux model (5) of D3D)
+
+[wind]
+ICdtyp               = 2                   # ( ),1=const, 2=S&B 2 breakpoints, 3= S&B 3 breakpoints, 4=Charnock constant
+Cdbreakpoints        = 6.3d-4 7.23d-3      # ( ),   e.g. 0.00063  0.00723
+Windspeedbreakpoints = 0. 100.             # (m/s), e.g. 0.0      100.0
+Rhoair               = 1.20000004768372    # Air density (kg/m3)
+PavBnd               = 0.                  # Average air Pressure on open boundaries, (N/m2), only applied if value > 0
+Gapres               = 101325.             # Only relevant for Spiderweb:  Global Atmospheric Pressure, (N/m2)
+
+[time]
+RefDate              = 20220101            # Reference date (yyyymmdd)
+Tzone                = 0.                  # Data Sources in GMT are interrogated with time in minutes since refdat-Tzone*60
+Tunit                =                     # Time units in MDU (H, M or S)
+DtUser               = 300.                # User timestep in seconds (interval for external forcing update & his/map output)
+DtMax                = 60.                 # Max timestep in seconds
+DtInit               = 1.                  # Initial timestep in seconds
+AutoTimestep         = 1                   # Use CFL timestep limit or not (1/0)
+TStart               = 0.                  # Start time w.r.t. RefDate (in TUnit)
+TStop                = 864000.             # Stop  time w.r.t. RefDate (in TUnit)
+
+[restart]
+RestartFile          =                     # Restart file, only from netcdf-file, hence: either *_rst.nc or *_map.nc
+RestartDateTime      =                     # Restart time (YYYYMMDDHHMMSS), only relevant in case of restart from *_map.nc
+
+[external forcing]
+ExtForceFile         = mare.ext            # *.ext
+
+[output]
+OutputDir            =                     # Output directory of map-, his-, rst-, dat- and timings-files, default: DFM_OUTPUT_<modelname>. Set to . for no dir/current dir.
+ObsFile              =                     # *.xyn Coords+name of observation stations.
+CrsFile              =                     # *_crs.pli Polyline(s) definining cross section(s).
+HisInterval          = 120.                # History output, given as "interval" "start period" "end period" (s)
+XLSInterval          = 0.                  # Interval (s) between XLS history
+FlowGeomFile         =                     # *_flowgeom.nc Flow geometry file in NetCDF format.
+MapInterval          = 1200.               # Map file output, given as "interval" "start period" "end period" (s)
+MapFormat            = 1                   # Map file format, 1: netCDF, 2: Tecplot, 3: netCFD and Tecplot
+RstInterval          = 86400.              # Restart file output, given as "interval" "start period" "end period" (s)
+WaqInterval          = 0.                  # Interval (in s) between Delwaq file outputs
+StatsInterval        = 0.                  # Interval (in s) between simulation statistics output.
+TimingsInterval      = 0.                  # Timings output interval
+TimeSplitInterval    = 0X                  # Time splitting interval, after which a new output file is started. value+unit, e.g. '1 M', valid units: Y,M,D,h,m,s.
+MapOutputTimeVector  =                     # File (.mpt) containing fixed map output times (s) w.r.t. RefDate
+FullGridOutput       = 0                   # 0:compact, 1:full time-varying grid data
+** INFO   : **
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_map.nc.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_map.nc' as #         3.
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220101_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220101_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000029.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000030.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000031.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000032.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000033.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000034.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000035.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000036.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000037.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000038.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000039.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000040.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000041.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000042.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000043.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000044.pcx
+** INFO   : User interrupt
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000045.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000046.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000047.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000048.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000049.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000050.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000051.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000052.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000053.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000054.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000055.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000056.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220102_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220102_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000057.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000058.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000059.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000060.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000061.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000062.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000063.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000064.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000065.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000066.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000067.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000068.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000069.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000070.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000071.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000072.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000073.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000074.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000075.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000076.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000077.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000078.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000079.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000080.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000081.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000082.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000083.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000084.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000085.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220103_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220103_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000086.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000087.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000088.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000089.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000090.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000091.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000092.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000093.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000094.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000095.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000096.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000097.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000098.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000099.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000100.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000101.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000102.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000103.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000104.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000105.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000106.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000107.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000108.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000109.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000110.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000111.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000112.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000113.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000114.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220104_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220104_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000115.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000116.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000117.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000118.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000119.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000120.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000121.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000122.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000123.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000124.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000125.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000126.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000127.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000128.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000129.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000130.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000131.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000132.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000133.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000134.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000135.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000136.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000137.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000138.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000139.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000140.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000141.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000142.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000143.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220105_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220105_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000144.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000145.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000146.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000147.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000148.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000149.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000150.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000151.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000152.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000153.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000154.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000155.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000156.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000157.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000158.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000159.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000160.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000161.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000162.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000163.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000164.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000165.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000166.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000167.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000168.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000169.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000170.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000171.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220106_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220106_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000172.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000173.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000174.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000175.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000176.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000177.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000178.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000179.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000180.pcx
+** INFO   : User interrupt
+** INFO   : Values at flow links
+** INFO   : Values at flow nodes
+** INFO   : Node x-velocity component          (m/s)
+** INFO   : Values at flow links
+** INFO   : Values at flow nodes
+** INFO   : Node velocity magnitude            (m/s)
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000181.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000182.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000183.pcx
+** INFO   : User interrupt
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000184.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000185.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000186.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000187.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000188.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000189.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000190.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000191.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000192.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000193.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000194.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000195.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000196.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000197.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000198.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000199.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000200.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220107_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220107_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000201.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000202.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000203.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000204.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000205.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000206.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000207.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000208.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000209.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000210.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000211.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000212.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000213.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000214.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000215.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000216.pcx
+** INFO   : User interrupt
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000217.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000218.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000219.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000220.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000221.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000222.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000223.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000224.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000225.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000226.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000227.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000228.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000229.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220108_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220108_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000230.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000231.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000232.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000233.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000234.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000235.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000236.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000237.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000238.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000239.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000240.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000241.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000242.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000243.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000244.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000245.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000246.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000247.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000248.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000249.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000250.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000251.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000252.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000253.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000254.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000255.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000256.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000257.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000258.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220109_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220109_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000259.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000260.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000261.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000262.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000263.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000264.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000265.pcx
+** INFO   : User interrupt
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000266.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000267.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000268.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000269.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000270.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000271.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000272.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000273.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000274.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000275.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000276.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000277.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000278.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000279.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000280.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000281.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000282.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000283.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000284.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000285.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000286.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000287.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220110_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220110_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000288.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000289.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000290.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000291.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000292.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000293.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000294.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000295.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000296.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000297.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000298.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000299.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000300.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000301.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000302.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000303.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000304.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000305.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000306.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000307.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000308.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000309.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000310.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000311.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000312.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000313.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000314.pcx
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000315.pcx
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc.
+** INFO   : You created SCREENDUMP DFM_OUTPUT_mare\/000316.pcx
+** INFO   : simulation period     (s)  :   864000.0000000000
+** INFO   : nr of timesteps       ( )  :    14434.0000000000
+** INFO   : cputime in solve      (s)  :       66.8550000003
+** INFO   : cputime steps         (s)  :      106.2220000009
+** INFO   : cputime steps + plots (s)  :       45.1700000000
+** INFO   : fraction solve/steps  ( )  :        0.6293893920
+** INFO   : total/(dnt*ndx)       (s)  :        0.0000006524
+** INFO   : av nr of cont. it s1it( )  :        0.0000000000
+** INFO   : cputime setumod       (s)  :        8.0520000010
+** INFO   : Modelinit finished   at: 22:33:10, 19-04-2023
+** INFO   : Computation finished at: 22:38:20, 19-04-2023
+** INFO   : Opened file : mare_20220111_000000
+** INFO   : Closed file : mare_20220111_000000
+** INFO   : Opened file : numlimdt.xyz
+** INFO   : Closed file : numlimdt.xyz
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc.
+** INFO   : simulation period     (s)  :   864000.0000000000
+** INFO   : nr of timesteps       ( )  :    14434.0000000000
+** INFO   : cputime in solve      (s)  :       66.8550000003
+** INFO   : cputime steps         (s)  :      106.2220000009
+** INFO   : cputime steps + plots (s)  :        0.1170000000
+** INFO   : fraction solve/steps  ( )  :        0.6293893920
+** INFO   : total/(dnt*ndx)       (s)  :        0.0000000017
+** INFO   : av nr of cont. it s1it( )  :        0.0000000000
+** INFO   : cputime setumod       (s)  :        8.0520000010
+** INFO   : Modelinit finished   at: 22:38:20, 19-04-2023
+** INFO   : Computation finished at: 23:10:40, 19-04-2023
+** INFO   : Opened file : mare_20220111_000000
+** INFO   : Closed file : mare_20220111_000000
+** INFO   : Opened file : numlimdt.xyz
+** INFO   : Closed file : numlimdt.xyz
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc.
+** INFO   : simulation period     (s)  :   864000.0000000000
+** INFO   : nr of timesteps       ( )  :    14434.0000000000
+** INFO   : cputime in solve      (s)  :       66.8550000003
+** INFO   : cputime steps         (s)  :      106.2220000009
+** INFO   : cputime steps + plots (s)  :        0.1450000000
+** INFO   : fraction solve/steps  ( )  :        0.6293893920
+** INFO   : total/(dnt*ndx)       (s)  :        0.0000000021
+** INFO   : av nr of cont. it s1it( )  :        0.0000000000
+** INFO   : cputime setumod       (s)  :        8.0520000010
+** INFO   : Modelinit finished   at: 23:10:40, 19-04-2023
+** INFO   : Computation finished at: 23:10:41, 19-04-2023
+** INFO   : Opened file : mare_20220111_000000
+** INFO   : Closed file : mare_20220111_000000
+** INFO   : Opened file : numlimdt.xyz
+** INFO   : Closed file : numlimdt.xyz
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** DEBUG  : Opened NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc' as #         4.
+** DEBUG  : Closed NetCDF file 'DFM_OUTPUT_mare\mare_20220111_000000_rst.nc.
+** INFO   : simulation period     (s)  :   864000.0000000000
+** INFO   : nr of timesteps       ( )  :    14434.0000000000
+** INFO   : cputime in solve      (s)  :       66.8550000003
+** INFO   : cputime steps         (s)  :      106.2220000009
+** INFO   : cputime steps + plots (s)  :        0.1100000000
+** INFO   : fraction solve/steps  ( )  :        0.6293893920
+** INFO   : total/(dnt*ndx)       (s)  :        0.0000000016
+** INFO   : av nr of cont. it s1it( )  :        0.0000000000
+** INFO   : cputime setumod       (s)  :        8.0520000010
+** INFO   : Modelinit finished   at: 23:10:41, 19-04-2023
+** INFO   : Computation finished at: 23:11:45, 19-04-2023
+** INFO   : Opened file : mare_20220111_000000
+** INFO   : Closed file : mare_20220111_000000
+** INFO   : Opened file : numlimdt.xyz
+** INFO   : Closed file : numlimdt.xyz
+** INFO   : Load land boundary               (*.ldb)
+** INFO   : Opened file : utinga_lake_veg(out).ldb
+** INFO   : Closed file : utinga_lake_veg(out).ldb
+** INFO   : YOU LOADED utinga_lake_veg(out).ldb
+** INFO   : Values at net  nodes
+** INFO   : Vertical level ZK                    (m)
+** INFO   : Values at net  nodes
+** INFO   : NO NODE VALUES
+** INFO   : Values at flow nodes
+** INFO   : Waterdepth                          (m )
+** DEBUG  : Tried to close NetCDF id   4, not found.
+** ERROR  : Could not put global attributes in NetCDF #            256
+** INFO   : Closed file : wind.wnd
